@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
+    <meta charset="UTF-8" />
     <title>Nina Carducci - Photographe</title>
     <meta name="description" content="Nina Carducci - Photographe à Bordeaux" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Twitter Card data -->
-    <meta name="twitter:card" value="summary" />
+    <meta name="twitter:card" content="summary" />
     <!-- Open Graph data -->
     <meta property="og:title" content="Title Here" />
     <meta property="og:type" content="website" />
@@ -20,15 +21,14 @@
       href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
       rel="stylesheet"
     />
-    <meta charset="UTF-8" />
     <script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
     ></script>
-    <script src="./assets/maugallery.min.js"></script>
     <script src="./assets/scripts.js"></script>
+    <script src="./assets/maugallery.js"></script>
     <script type="application/ld+json">
           {
             "@context": "https://schema.org",
@@ -139,7 +139,7 @@
           </button>
         </div>
       </div>
-      <div id="about">
+      <section id="about">
         <div class="picture left">
           <img
             src="./assets/images/nina.webp"
@@ -166,8 +166,8 @@
             yeux sur vos photos.
           </p>
         </div>
-      </div>
-      <div id="gallery">
+      </section>
+      <section id="gallery">
         <h2 class="title">Portfolio</h2>
         <div class="container py-3">
           <div class="gallery" style="display: none">
@@ -241,11 +241,11 @@
             <figcaption class="quote__author">- Richard Avedon</figcaption>
           </figure>
         </div>
-      </div>
-      <div id="services">
+      </section>
+      <section id="services">
         <h2 class="title">Mes services</h2>
         <div class="container">
-          <div class="service">
+          <article class="service">
             <div class="service__description">
               <h3>Shooting photo</h3>
               <p>
@@ -258,8 +258,8 @@
               <h4>350€/demi journée</h4>
               <span>Matériel, déplacement inclus</span>
             </div>
-          </div>
-          <div class="service">
+          </article>
+          <article class="service">
             <div class="service__description">
               <h3>Retouches</h3>
               <p>
@@ -272,8 +272,8 @@
               <h4>50€/photo</h4>
               <span>2 AR par photo</span>
             </div>
-          </div>
-          <div class="service">
+          </article>
+          <article class="service">
             <div class="service__description">
               <h3>Album photos</h3>
               <p>
@@ -285,9 +285,9 @@
               <h4>400€ album A4</h4>
               <span>30 pages recto/verso</span>
             </div>
-          </div>
+          </article>
         </div>
-      </div>
+      </section>
       <div class="quote">
         <figure>
           <blockquote>
